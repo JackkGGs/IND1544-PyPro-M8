@@ -14,3 +14,6 @@ M8L1 Notes
       - Melindungi hutan: Hutan berperan penting dalam menyerap karbon dioksida. Melindungi dan merehabilitasi hutan dapat membantu mengurangi dampak perubahan iklim.
       - Mendukung kebijakan ramah lingkungan: Memilih pemimpin dan kebijakan yang berkomitmen untuk mengatasi perubahan iklim.
       - Meningkatkan kesadaran: Menyebarkan informasi tentang perubahan iklim dan mengajak orang lain untuk turut serta dalam upaya mitigasi.
+  Project Plans:
+  - A simple, yet complicated, website of which uses together.ai services to get parameters given by TensorFlow and Keras, and then conclude if parameters given are eco-friendly or not. The websites' domain is supplied by pythonanywhere.
+  - Situs web sederhana, meski rumit. Situs web ini menggunakan layanan together.ai untuk mendapatkan parameter yang diberikan oleh TensorFlow dan Keras, lalu menyimpulkan apakah parameter yang didapat ramah lingkungan atau tidak. Situs web ini menggunakan domain        yang disediakan oleh pythonanywhere.
