@@ -5,3 +5,4 @@ from PIL import Image, ImageOps
 transformers==4.23.1
 requests==2.28.1
 flask==2.1.2
+from together import Together
