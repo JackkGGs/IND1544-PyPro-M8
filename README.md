@@ -1,5 +1,4 @@
 # IND1544-PyPro-M8
-M8L1 Notes
   Hackathon adalah kompetisi bagi para pengembang, di mana para spesialis dari berbagai bidang pengembangan perangkat lunak bekerja sama untuk memecahkan masalah tertentu dalam batas waktu tertentu.
   Hackaton Theme: Climate Change
   1. Apa itu perubahan iklim?
