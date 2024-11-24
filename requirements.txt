@@ -1,8 +1,33 @@
-tensorflow==2.15.0
-keras
-numpy as np
-from PIL import Image, ImageOps
-transformers==4.23.1
-requests==2.28.1
-flask==2.1.2
-from together import Together
+You must install:
+note that if you're visiting the pythonanywhere site, just visit it. this code is open source.
+  cython
+  pillow>=7.0.0
+  numpy>=1.18.1
+  opencv-python>=4.1.2
+  torch==1.9.0 --extra-index-url https://download.pytorch.org/whl/cpu torchvision>=0.10.0 --extra-index-url https://download.pytorch.org/whl/cpu
+  pytest==7.1.3
+  tqdm==4.64.1
+  scipy>=1.7.3
+  matplotlib>=3.4.3
+  mock==4.0.3
+
+  [code below is supplied by together.ai which makes this project come true. free 405b model.]
+  from together import Together
+
+  client = Together()
+
+  response = client.chat.completions.create(
+    model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    messages=[],
+    max_tokens=null,
+    temperature=2,
+    top_p=0.7,
+    top_k=50,
+    repetition_penalty=1,
+    stop=["<|eot_id|>","<|eom_id|>"],
+    update_at="2024-11-23T09:37:23.635Z",
+    stream=True
+  )
+  for token in response:
+    if hasattr(token, 'choices'):
+        print(token.choices[0].delta.content, end='', flush=True)
