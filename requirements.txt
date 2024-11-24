@@ -1,5 +1,6 @@
 ##You must install:
 ##note that if you're visiting the pythonanywhere site, leave it as it is. this code is open source.
+  pipenv
   cython
   pillow>=7.0.0
   numpy>=1.18.1
@@ -10,6 +11,8 @@
   scipy>=1.7.3
   matplotlib>=3.4.3
   mock==4.0.3
+  imageai==3.0.3
+  https://github.com/OlafenwaMoses/ImageAI/releases/download/3.0.0-pretrained/yolov3.pt
 
   ##code below is supplied by together.ai, making this project come true - free 405b model.
   from together import Together
