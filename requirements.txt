@@ -1,5 +1,5 @@
 ##You must install:
-##note that if you're visiting the pythonanywhere site, leave it as it is. this code is open source.
+##note that if you're only visiting the pythonanywhere site, leave it as it is. this code is open source, modifications is allowed.
   pipenv
   cython
   pillow>=7.0.0
