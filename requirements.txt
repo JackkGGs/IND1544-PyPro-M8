@@ -1,5 +1,5 @@
-You must install:
-note that if you're visiting the pythonanywhere site, just visit it. this code is open source.
+##You must install:
+##note that if you're visiting the pythonanywhere site, leave it as it is. this code is open source.
   cython
   pillow>=7.0.0
   numpy>=1.18.1
@@ -11,7 +11,7 @@ note that if you're visiting the pythonanywhere site, just visit it. this code i
   matplotlib>=3.4.3
   mock==4.0.3
 
-  [code below is supplied by together.ai which makes this project come true. free 405b model.]
+  ##code below is supplied by together.ai, making this project come true - free 405b model.
   from together import Together
 
   client = Together()
